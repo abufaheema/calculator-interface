@@ -19,8 +19,8 @@
         } else {
             let answer = eval(screen.value);
             screen.value = answer;
-            }
-    })
+        }
+    });
     
     clear.addEventListener('click', function (e) {
         screen.value = '';
